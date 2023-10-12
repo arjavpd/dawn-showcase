@@ -4,6 +4,7 @@ import firebaseIcon from "@iconify/icons-logos/firebase";
 import reactIcon from "@iconify/icons-logos/react";
 import pythonIcon from "@iconify/icons-logos/python";
 import awsIcon from "@iconify/icons-logos/aws";
+import promo from "../media/promo.png";
 
 class About extends Component {
   render() {
@@ -11,8 +12,8 @@ class About extends Component {
       var profilepic = "images/" + this.props.sharedBasicInfo.image;
     }
     if (this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.about;
-      var hello = this.props.resumeBasicInfo.description_header;
+      var sectionName = this.props.resumeBasicInfo.section_name.overview;
+      var hello = this.props.resumeBasicInfo.overview_header;
       var about = this.props.resumeBasicInfo.description;
     }
 
@@ -26,11 +27,7 @@ class About extends Component {
             <div className='col-md-4 mb-5 center'>
               <div className='polaroid'>
                 <span style={{cursor: "auto"}}>
-                  <img
-                    height='250px'
-                    src={profilepic}
-                    alt='Avatar placeholder'
-                  />
+                  <img height='250px' src={promo} alt='Avatar placeholder' />
                   <Icon
                     icon={firebaseIcon}
                     style={{fontSize: "400%", margin: "9% 5% 0 5%"}}

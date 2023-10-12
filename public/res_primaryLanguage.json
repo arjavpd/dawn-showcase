@@ -1,9 +1,9 @@
 {
   "basic_info": {
-    "description_header": "Dawn Showcase",
+    "overview_header": "Dawn: Anonymous Dating App",
     "description": "👋 My name is Arjav Prasad! I'm about to graduate with an engineering degree from UBC! I'm a full-stack developer and have relevant experience building applications front to back. I'm self-motivated and have taught myself the programming languages and software systems I've needed up till now.",
     "section_name": {
-      "about": "About me",
+      "overview": "Overview",
       "projects": "Projects",
       "skills": "Skills",
       "experience": "Experience"
