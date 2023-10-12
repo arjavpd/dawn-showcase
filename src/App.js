@@ -3,8 +3,8 @@ import $ from "jquery";
 import "./App.scss";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import About from "./components/About";
 import Overview from "./components/Overview";
+import Recs from "./components/Recs";
 
 class App extends Component {
   constructor(props) {
@@ -56,10 +56,8 @@ class App extends Component {
     return (
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />
-        <Overview
-          resumeBasicInfo={this.state.resumeData.basic_info}
-          sharedBasicInfo={this.state.sharedData.basic_info}
-        />
+        <Overview />
+        <Recs />
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
     );

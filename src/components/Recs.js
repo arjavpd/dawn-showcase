@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import promo from "../media/promo.png";
+import flowchart from "../media/flowchart.png";
 
 class Overview extends Component {
   render() {
@@ -16,38 +16,22 @@ class Overview extends Component {
                   lineHeight: "200%",
                 }}>
                 <br />
-                <span className='wave'>Dawn: Anonymous Dating App</span>
+                <span className='wave'>Recommendation Algorithm</span>
                 <br />
                 <br />
                 <ul>
                   <li>
-                    Facilitated More than <strong>5000</strong> connections
-                    between over <strong>1300</strong> registered users
+                    Built algorithm that got 10 (filtered by age and gender
+                    preferences) users every day at noon for every user.
                   </li>
                   <li>
-                    Engaged around <strong>1000</strong> users for an average of
-                    <strong>15 minutes and 52 seconds</strong> on a daily basis
+                    Firestore does not have a way to get random documents, so
+                    had to devolp a query pagination algorithm to go through all
+                    the documents in the database until enough users were found.
                   </li>
                   <li>
-                    Designed, programed and deployed the entire application with{" "}
-                    <strong>React Native</strong> and{" "}
-                    <strong>Google Firebase</strong>
-                  </li>
-                  <li>
-                    Developed a recommendation <strong>algorithm</strong> to
-                    match users according to their preferences
-                  </li>
-                  <li>
-                    Devoloped profile edit features that allowed users to add
-                    images, GIFs, stickers and text to their profile
-                  </li>
-                  <li>
-                    Devoloped reveal feature to allow users to reveal their
-                    identity if they both agree to do so
-                  </li>
-                  <li>
-                    Analyzed user Analytics with <strong>Mixpanel</strong>, used
-                    the data to improve the experience
+                    Implmented ranking system to priortize users with better
+                    profiles
                   </li>
                 </ul>
               </div>
@@ -55,7 +39,7 @@ class Overview extends Component {
           </div>
           <div className='col-md-4'>
             <img
-              src={promo}
+              src={flowchart}
               alt='Your Image'
               style={{
                 width: "100%",
