@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dawn-showcase/static/css/main.2efe7567.css",
+    "main.js": "/dawn-showcase/static/js/main.cbb1a861.js",
+    "index.html": "/dawn-showcase/index.html",
+    "main.2efe7567.css.map": "/dawn-showcase/static/css/main.2efe7567.css.map",
+    "main.cbb1a861.js.map": "/dawn-showcase/static/js/main.cbb1a861.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2efe7567.css",
+    "static/js/main.cbb1a861.js"
+  ]
+}
