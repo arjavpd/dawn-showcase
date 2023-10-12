@@ -1,0 +1,93 @@
+{
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "👋 My name is Arjav Prasad! I'm about to graduate with an engineering degree from UBC! I'm a full-stack developer and have relevant experience building applications front to back. I'm self-motivated and have taught myself the programming languages and software systems I've needed up till now.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "TimeBlox",
+      "startDate": "2022",
+      "description": "Timeblox is a social accountability dashboard. This Chrome extension takes over the users tab and allows users to set tasks, set timers, track their progress, and see their friends' progress. I was responsible for building out the UI, the share feature, and various client-side data handling.",
+      "images": ["images/portfolio/timeblox/p1.png"],
+      "url": "https://chrome.google.com/webstore/detail/timeblox/bbgjgcmflmkedifjfnaegoclmgdghdbc",
+      "technologies": [
+        {
+          "class": "devicon-chrome-plain",
+          "name": "Chrome"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        }
+      ]
+    },
+    {
+      "title": "Dawn",
+      "startDate": "2022",
+      "description": "Dawn is an anonymous dating app for iOS/Android with 100 daily active users. I built the app from scratch with a partner. I was responsible for building the recommendation algorithm, the matching system, the profile creation system, the reveal feature, and many of the onboarding screens.",
+      "images": ["images/portfolio/dawn/p1.png"],
+      "url": "https://joindawn.app/",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-firebase-plain",
+          "name": "Firebase"
+        },
+        {
+          "class": "devicon-apple-plain",
+          "name": "Apple"
+        },
+        {
+          "class": "devicon-android-plain",
+          "name": "Android"
+        }
+      ]
+    },
+    {
+      "title": "Wine Predictive Modelling",
+      "startDate": "2022",
+      "description": "This is a Python-based web application that uses machine learning on a database concerned with the chemical properties of wine. I pre-processed the data and applied a model to predict the class of wine given certain parameters. I then deployed the web application using Streamlit.",
+      "images": ["images/portfolio/wine/p1.jpg"],
+      "url": "https://arjavpd-winemlapp-wc-ml-app-q0ac4v.streamlit.app/",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Vegan Supply",
+      "title": "Part-Time Web Developer/Tech Lead ",
+      "years": "04/2023 - present",
+      "mainTech": ["Liquid"],
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "description": "Imlemented visual display of tags for easy navigation which improved conversion by 15%. Used Hotjar to analyze scroll heatmaps and improved click-through of buttons. Improved Google page speed scores by 30 points.",
+      "icon": "fab fa-react experience-icon"
+    },
+    {
+      "company": "Union Digital",
+      "title": "Front-End Developer",
+      "years": "04/2022 - 11/2022",
+      "mainTech": ["Figma"],
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "description": "Built Figma website displaying customer journey of crypto-powered purchasing. Website was used in demos for potential investors at tech conventions.",
+      "icon": "fab fa-figma experience-icon"
+    }
+  ]
+}
