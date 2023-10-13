@@ -37,7 +37,7 @@ class Reveal extends Component {
                   </li>
                   <li>
                     Implemented ballons and confetti animation after noticing
-                    how many users were excited when the revealed :)
+                    how excited users were when they revealed :)
                   </li>
                 </ul>
               </div>

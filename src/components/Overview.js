@@ -47,7 +47,7 @@ class Overview extends Component {
                   </li>
                   <li>
                     Analyzed user Analytics with <strong>Mixpanel</strong>, used
-                    the data to improve the experience
+                    the data to improve the experience for users
                   </li>
                 </ul>
               </div>
