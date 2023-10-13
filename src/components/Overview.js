@@ -38,11 +38,11 @@ class Overview extends Component {
                     match users according to their preferences
                   </li>
                   <li>
-                    Devoloped profile edit features that allowed users to add
+                    Developed profile edit features that allowed users to add
                     images, GIFs, stickers and text to their profile
                   </li>
                   <li>
-                    Devoloped reveal feature to allow users to reveal their
+                    Developed reveal feature to allow users to reveal their
                     identity if they both agree to do so
                   </li>
                   <li>
