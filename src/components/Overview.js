@@ -61,8 +61,7 @@ class Overview extends Component {
                 width: "100%",
                 height: "auto",
                 marginTop: "8.5%",
-                marginRight: "10%",
-                marginLeft: "5%",
+                marginLeft: "15%",
               }}
             />
           </div>

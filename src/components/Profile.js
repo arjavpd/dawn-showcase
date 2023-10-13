@@ -40,7 +40,12 @@ class Profile extends Component {
               autoPlay
               loop
               muted
-              style={{width: "100%", height: "70%", marginTop: "8.5%"}}>
+              style={{
+                width: "100%",
+                height: "600px",
+                marginTop: "8.5%",
+                marginLeft: "15%",
+              }}>
               <source src={appVideo} type='video/mp4'></source>
             </video>
           </div>
