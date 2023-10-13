@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Overview from "./components/Overview";
 import Recs from "./components/Recs";
 import Profile from "./components/Profile";
+import Reveal from "./components/Reveal";
 
 class App extends Component {
   constructor(props) {
@@ -59,6 +60,7 @@ class App extends Component {
         <Header sharedData={this.state.sharedData.basic_info} />
         <Overview />
         <Profile />
+        <Reveal />
         <Recs />
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
