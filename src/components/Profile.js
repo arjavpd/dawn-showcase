@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import promo from "../media/promo.png";
+import appVideo from "../media/appVideo.mov";
 
 class Profile extends Component {
   render() {
@@ -34,17 +35,14 @@ class Profile extends Component {
             </div>
           </div>
           <div className='col-md-4'>
-            <img
-              src={promo}
-              alt='Your Image'
-              style={{
-                width: "100%",
-                height: "auto",
-                marginTop: "8.5%",
-                marginRight: "10%",
-                marginLeft: "5%",
-              }}
-            />
+            <video
+              controls
+              autoPlay
+              loop
+              muted
+              style={{width: "100%", height: "70%", marginTop: "8.5%"}}>
+              <source src={appVideo} type='video/mp4'></source>
+            </video>
           </div>
         </div>
       </section>
@@ -53,12 +51,3 @@ class Profile extends Component {
 }
 
 export default Profile;
-
-// <li>
-// Integreated Tenor and Giphy API to allow users to add GIFs
-// and stickers to their profile
-// </li>
-// <li>
-// Implemented photo libary selection to allow users to add
-// images to their profile
-// </li>
